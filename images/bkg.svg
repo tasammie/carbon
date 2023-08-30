@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.5in" height="11in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8500 11000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+    <clipPath id="id0">
+     <rect x="2520.49" y="4157.22" width="4325.86" height="2569.56"/>
+    </clipPath>
+    <clipPath id="id1">
+     <rect x="1302.78" y="3469.72" width="3490.7" height="1942.29"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M1302.78 5412.01l3490.7 0 0 -1942.29 -3490.7 0 0 1942.29z"/>
+    </clipPath>
+    <clipPath id="id3">
+     <rect x="1302.78" y="3469.72" width="3490.7" height="1942.29"/>
+    </clipPath>
+    <clipPath id="id4">
+     <rect x="4929.01" y="5727.17" width="2788.76" height="823.72"/>
+    </clipPath>
+    <clipPath id="id5">
+     <rect x="6248.04" y="3963.86" width="1368.12" height="1111.17"/>
+    </clipPath>
+    <clipPath id="id6">
+     <rect x="1752.6" y="6390.15" width="397.46" height="397.46"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3006723656848">
+   <g style="clip-path:url(#id0)">
+    <image id="nw2.jpg" x="2520.49" y="4157.22" width="4325.86" height="2569.56" xlink:href="bkg_Images\bkg_ImgID1.png"/>
+   </g>
+   <g style="clip-path:url(#id1)">
+   </g>
+   <g style="clip-path:url(#id2)">
+    <image id="nw4-removebg-preview_x0020__x0028_1_x0029_.png" x="1302.78" y="3469.72" width="3490.7" height="1942.29" xlink:href="bkg_Images\bkg_ImgID2.png"/>
+   </g>
+   <g style="clip-path:url(#id3)">
+   </g>
+   <g style="clip-path:url(#id4)">
+    <image id="nw1-removebg-preview.png" x="4929.01" y="5727.17" width="2788.76" height="823.72" xlink:href="bkg_Images\bkg_ImgID3.png"/>
+   </g>
+   <g style="clip-path:url(#id5)">
+    <image id="nw3-removebg-preview.png" x="6248.04" y="3963.86" width="1368.12" height="1111.17" xlink:href="bkg_Images\bkg_ImgID4.png"/>
+   </g>
+   <g style="clip-path:url(#id6)">
+    <image id="nw5-removebg-preview.png" x="1752.6" y="6390.15" width="397.46" height="397.46" xlink:href="bkg_Images\bkg_ImgID5.png"/>
+   </g>
+  </g>
+ </g>
+</svg>

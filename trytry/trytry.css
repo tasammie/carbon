@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main-head{
+    position: fixed;
+    padding: 10px 30px;
+    width: 100%;
+    background: linear-gradient(80deg,#3B2F84 15%, #8E66DA 75%)!important;
+}
+
+#main-head a{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#fixed-bground{
+    width: 100%;
+    position: fixed;
+    transform: translate3d(0px, 0px, 0px);
+    
+}
+.fixed-bground{
+    padding-top: 130px;
+    height: 100vh;
+    background-image: url(../images/curved\ shape.webp);
+    background-position: 100% 100%,50% 100%;
+    background-repeat: no-repeat,repeat;
+    background-size: contain, auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.mother{
+    /* -width: 100%; */
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: space-between; */
+}
+
+.text{
+    width: 50%;
+}
+
+.text h3{
+    font-size: 20px;
+
+}
+
+.father{
+    width: 100%4;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    height: 50vh;
+    overflow-y: hidden;
+    border: thin solid black;
+}
+
+
+
+.first{
+    width: 20em;
+    height: 20vh;
+    background-color: purple;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.second{
+    width: 20em;
+    height: 20vh;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+.third{
+    width: 20em;
+    height: 20vh;
+    background-color: red;
+    border-radius: 10px;
+    margin: 20px;
+   
+}
+
+.fourth{
+    width: 20em;
+    height: 20vh;
+    background-color: green;
+    border-radius: 10px;
+    margin: 20px;
+  
+}
+
+
+

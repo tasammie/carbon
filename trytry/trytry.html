@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./trytry.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<style>
+
+.wrapper-3d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 80px;
+}
+
+    .img-3d{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.img-3d img{
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+   
+}
+
+.img-3d img:nth-child(2){
+    transform: rotateY(180deg);
+
+}
+
+.img-3d:hover img:nth-child(2){
+    transform: rotateY(0deg);
+    
+}
+
+.img-3d:hover img:nth-child(1){
+    transform: rotateY(-180deg);
+    
+    
+}
+.dropdown-menu {
+    transform: translate(-200px 200px);
+   
+}
+</style>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="main-head">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-logo" src="../images/carbon-logo-white.webp" alt="Bootstrap"  height="40">
+                  </a>
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="#">Personal</a>
+                      </li>
+
+                      <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="./business page/business.html">Business</a>
+                      </li>
+               
+                </ul>
+               <div>
+                    <ul class="navbar me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown ms-4 ">
+                            <a class="nav-link dropdown-toggl" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Features
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        
+                          <li class="nav-item dropdown ms-4 pe-3">
+                            <a class="nav-link dropdown-toggl" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggl" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Help
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+               </div>
+               
+                <button type="button" class="btn btn-outline-info ms-4 text-white"> Sign Up</button>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <br><br><br><br><br><br><br><br><br>
+
+
+
+    <!-- header two -->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li  class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu d-flex align-items-center justify-content-between p-4">
+                    <div class="dropdown">
+                        <div class="menu d-flex align-items-center">
+                            <img style="width: 0px;" src="../images/_Loans-icon.svg" alt="">
+                           <div class="ff p-3">
+                            <p>loan</p>
+                            <p>action action anhkkkkjdjdjdjdjjkkkkk</p>
+                            <li><a class="dropdown-item" href="#">Action ahahahahah</a></li> 
+
+
+                           </div>
+                        </div>
+
+                        <div class="menu d-flex align-items-center">
+                            <img style="width: 30px;" src="../images/_Loans-icon.svg" alt="">
+                           <div class="ff p-3">
+                            <p>loan</p>
+                            <p>action action anhkkkkjdjdjdjdjjkkkkk</p>
+                            <li><a class="dropdown-item" href="#">Action ahahahahah</a></li> 
+
+
+                           </div>
+                        </div>
+
+                        <div class="menu d-flex align-items-center">
+                            <img style="width: 30px;" src="../images/_Loans-icon.svg" alt="">
+                           <div class="ff p-3">
+                            <p>loan</p>
+                            <p>action action anhkkkkjdjdjdjdjjkkkkk</p>
+                            <li><a class="dropdown-item" href="#">Action ahahahahah</a></li> 
+
+
+                           </div>
+                        </div>
+                    
+
+                    </div>
+                    <div class="dropdown">
+                        <div class="dropdown">
+                            <div class="menu d-flex align-items-center">
+                                <img style="width: 30px;" src="../images/_Loans-icon.svg" alt="">
+                               <div class="ff p-3">
+                                <p>loan</p>
+                                <p>action action anhkkkkjdjdjdjdjjkkkkk</p>
+    
+    
+                               </div>
+                            </div>
+    
+                            <div class="menu d-flex align-items-center">
+                                <img style="width: 30px;" src="../images/_Loans-icon.svg" alt="">
+                               <div class="ff p-3">
+                                <p>loan</p>
+                                <p>action action anhkkkkjdjdjdjdjjkkkkk</p>
+    
+    
+                               </div>
+                            </div>
+    
+                            <div class="menu d-flex align-items-center">
+                                <img style="width: 30px;" src="../images/_Loans-icon.svg" alt="">
+                               <div class="ff p-3">
+                                <p>loan</p>
+                                <p>action action anhkkkkjdjdjdjdjjkkkkk</p>
+    
+    
+                               </div>
+                            </div>
+                        
+    
+                        </div>
+
+                    </div>
+                </ul>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <div class="row align-items-center justify-content-center"  style="width: 600px !important;">
+                        <div class="col-5 d-flex gap-3 align-items-center p-3">
+                            <img src="../images/_Loans-icon.svg" alt="">
+                            <div class="d-flex flex-column">
+                                <h6 class="fw-bold m-0">About</h6>
+                                <small class="text-muted">Intant loans whenever you need it</small>
+                            </div>
+                        </div>
+                        <div class="col-5 d-flex gap-3 align-items-center p-3">
+                            <img src="../images/_Loans-icon.svg" alt="">
+                            <div class="d-flex flex-column">
+                                <h6 class="fw-bold m-0">About</h6>
+                                <small class="text-muted">Intant loans whenever you need it</small>
+                            </div>
+                        </div>
+                        <div class="col-5 d-flex gap-3 align-items-center p-3">
+                            <img src="../images/_Loans-icon.svg" alt="">
+                            <div class="d-flex flex-column">
+                                <h6 class="fw-bold m-0">About</h6>
+                                <small class="text-muted">Intant loans whenever you need it</small>
+                            </div>
+                        </div>
+                        <div class="col-5 d-flex gap-3 align-items-center p-3">
+                            <img src="../images/_Loans-icon.svg" alt="">
+                            <div class="d-flex flex-column">
+                                <h6 class="fw-bold m-0">About</h6>
+                                <small class="text-muted">Intant loans whenever you need it</small>
+                            </div>
+                        </div>
+                        <div class="col-5 d-flex gap-3 align-items-center p-3">
+                            <img src="../images/_Loans-icon.svg" alt="">
+                            <div class="d-flex flex-column">
+                                <h6 class="fw-bold m-0">About</h6>
+                                <small class="text-muted">Intant loans whenever you need it</small>
+                            </div>
+                        </div>
+                        <div class="col-5 d-flex gap-3 align-items-center p-3">
+                            <img src="../images/_Loans-icon.svg" alt="">
+                            <div class="d-flex flex-column">
+                                <h6 class="fw-bold m-0">About</h6>
+                                <small class="text-muted">Intant loans whenever you need it</small>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+           
+              <button class="btn btn-outline-success" type="submit">Sign up</button>
+        
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+    <!-- <div class="wrapper-3d">
+        <div class="img-3d">
+            <img style="width: 400px;" src="../images/hero img.webp" alt="">
+            <img style="width: 300px;" src="../images/hero-handphone.webp" alt="">
+        
+          </div>
+    </div> -->
+
+
+<!-- 
+  <div class="container">
+    
+        <div class="mother">
+            <div class="text">
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolore laborum nam obcaecati debitis.
+                </h3>
+
+            </div>
+
+            <div class="father">
+
+                <div class="first">
+
+                </div>
+
+                <div class="second">
+
+                </div>
+
+                <div class="third">
+
+                </div>
+
+                <div class="fourth">
+
+                </div>
+                <div class="first">
+
+
+                </div>
+                <div class="first">
+
+
+                </div>
+                <div class="first">
+
+
+                </div>
+                <div class="first">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+  
+   
+  </div>
+  <br>
+  <br>
+  <br> -->
+
+
+    
+    
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
