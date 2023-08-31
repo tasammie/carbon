@@ -943,7 +943,7 @@
 .help-flex-wrap{
   background-color: rgba(78,241,224,.1);
   border-radius: 20px;
-  /* padding: 30px 0; */
+  padding: 30px 0;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -997,8 +997,9 @@
 
 
 .help-button {
-  transition: all 1s;
+  /* transition: all 1s; */
   padding-bottom: 40px;
+ 
 }
 
 .help-center-bttn {
@@ -1013,6 +1014,7 @@
   position: relative;
   left: 0;
   z-index: 1;
+  
 }
 
 .help-center-bttn a {
@@ -1372,14 +1374,17 @@
 
 
   #help-center-container{
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
+    padding-top: 100px;
+
   }
 
 
-  /* .help-flex-wrap{
-    padding: 100px 0px;
+  .help-flex-wrap{
+    /* padding: 100px 0px; */
+    padding-top: 200px;
 
-  } */
+  }
 
 
 
