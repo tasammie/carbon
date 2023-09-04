@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .image-container{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .rotate-image{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            animation: rotate 20s linear infinite alternate;
+        }
+
+        .rotate-image:nth-child(1){
+            animation-delay: 0s;
+        }
+
+        .rotate-image:nth-child(2){
+            animation-delay: 10s;
+        }
+
+        @keyframes rotate{
+            0%, 100%{
+                transform: rotateY(0deg);
+                opacity: 1;
+            }
+
+            50%{
+                transform: rotateY(180deg);
+                opacity: 0;
+            }
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt tenetur atque laudantium aliquam a autem laboriosam minus consectetur blanditiis, eveniet minima ipsa est illo repudiandae ab delectus expedita pariatur, voluptates similique deleniti rem architecto culpa. Aut necessitatibus, vero officia quas recusandae ad dolores minima aspernatur earum amet voluptatum tempore.
+    </div>
+    <div class="image-containter div">
+        <img class="rotate-image" src="../images/hero-handphone.webp" alt="">
+        <img class="rotate-image" src="../images/hero img jp.jpg" alt="">
+    </div>
+</body>
+</html>

@@ -12,18 +12,56 @@
 }
 
 
-
-#main-head{
+#main-head {
     position: fixed;
     padding: 10px 30px;
     width: 100%;
-    background: linear-gradient(80deg,#3B2F84 15%, #8E66DA 75%)!important;
-}
-
-#main-head a{
+    background-color: #2c1762;
+    background-position: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    background-image: url(https://uploads-ssl.webflow.com/6453bf08503f6d73d5ffe98e/6463492c794219e8d0ee923c_Ellipse%203.webp);
+   
+  }
+  
+  #main-head a {
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
-}
+    font-family: "M PLUS 1", sans-serif;
+  }
+  
+  .nav-hover a {
+    transition: all 0.3s ease !important;
+  }
+  
+  .nav-hover a:hover {
+    color: #ff0475 !important;
+  }
+  
+  .dropdown-menu {
+    transform: translate(-300px, 15px);
+  }
+  
+  .help-dropdown {
+    transform: translate(-300px, 15px);
+  }
+  
+  .hover {
+    cursor: pointer;
+  }
+  
+  .hover:hover {
+    color: #7839f3;
+    background-color: rgba(255, 4, 117, 0.1);
+    border-radius: 15px;
+  }
+  
+  #sign-uppp {
+    border: none;
+    color: black !important;
+    background-color: rgb(242, 238, 251);
+    padding: 10px 35px;
+  }
+   
 
 #fixed-bground{
     width: 100%;
